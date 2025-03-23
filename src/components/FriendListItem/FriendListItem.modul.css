@@ -1,0 +1,12 @@
+.isOnline {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
+
+.cartFriend {
+  border: 2px solid black;
+  padding: 20px;
+}
