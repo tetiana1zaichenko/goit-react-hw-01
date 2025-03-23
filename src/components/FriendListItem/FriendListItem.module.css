@@ -1,12 +1,19 @@
 .isOnline {
   color: green;
+  margin: 0;
 }
 
 .offline {
   color: red;
+  margin: 0;
 }
 
 .cartFriend {
   border: 2px solid black;
   padding: 20px;
+  border-radius: 10px;
+}
+
+.name {
+  margin: 0;
 }

@@ -1,24 +1,24 @@
-import "./Profile.modul.css";
+import style from "./Profile.module.css";
 const Profile = ({ name, tag, location, image, stats }) => {
   return (
-    <div className="cart">
+    <div className={style.cart}>
       <div>
-        <img className="img" src={image} alt={image} />
-        <p className="name">{name}</p>
-        <p className="text">@{tag}</p>
-        <p className="text">{location}</p>
+        <img className={style.img} src={image} alt={image} />
+        <p className={style.name}>{name}</p>
+        <p className={style.text}>@{tag}</p>
+        <p className={style.text}>{location}</p>
       </div>
 
-      <ul className="list">
-        <li className="item">
+      <ul className={style.list}>
+        <li className={style.item}>
           <span>Followers</span>
           <span>{stats.followers}</span>
         </li>
-        <li className="item">
+        <li className={style.item}>
           <span>Views</span>
           <span>{stats.views}</span>
         </li>
-        <li className="item">
+        <li className={style.item}>
           <span>Likes</span>
           <span>{stats.likes}</span>
         </li>
